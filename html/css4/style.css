@@ -1,0 +1,78 @@
+/* Base styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+article {
+    max-width: 800px;
+    margin: auto;
+    background-color: #0cbc5e;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* Link styles */
+a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation styling */
+nav {
+    margin-bottom: 20px;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 10px;
+}
+
+/* Utilizing pseudo-classes for interactive elements */
+button {
+    background-color: darkblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: navy;
+}
+
+/* Media query for responsive design */
+@media (max-width: 600px) {
+    article {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+}

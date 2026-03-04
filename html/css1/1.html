@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Internal style */
+        body {
+            color: darkblue; 
+            font-family: Arial, sans-serif; 
+        }
+        
+        .override {
+            color: red; 
+            font-size: 20px; 
+        }
+    </style>
+</head>
+<body>
+
+    <p>This paragraph inherits the body's color and font-family.</p>
+    
+    <div>
+        This div also inherits the body's color and font-family.
+        <p class="override">This paragraph has overridden the inherited color and font size.</p>
+    </div>
+
+</body>
+</html>
